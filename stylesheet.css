@@ -1,0 +1,12 @@
+legend{
+    color: rgb(167, 8, 146);
+    font-size: 2pc;
+    
+}
+
+.flexbox{
+    background-color: aqua;
+    justify-content: center;
+    align-content: center;
+}
+
