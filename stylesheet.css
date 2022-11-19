@@ -1,12 +1,57 @@
 legend{
     color: rgb(167, 8, 146);
     font-size: 2pc;
-    
+    margin-left: 20px;
+    padding: 0%;
 }
 
+/* Fieldset adjustment */
+fieldset{
+    width: fit-content;
+}
+
+/* Whole page flexbox */
 .flexbox{
-    background-color: aqua;
+    display: flex;
+    height: 100vh;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
+.content{
+    margin: 20px;
+}
+
+.content > label[for="eAddress"]:nth-of-type(2){
+    font-size: 60%;
+    color: rgb(172, 166, 171);
+}
+
+.content > input[type="text"]{
+    width: 22pc;
+    font-size: 1pc;
+    margin-top: 2.5mm;
+}
+
+.content > label[type=]{
+    width: 15pc;
+    font-size: 1pc;
+}
+
+.content > input[type="submit"]{
+    padding: 8px;
+    margin-top: 17px;
+    font-size: 110%;
+    background-color: rgb(167, 8, 146);
+    border-radius: 6%;
+    border-style: none;
+    color: white;
+}
+
+.content > input[type="checkbox"], label:last-child{
+    margin-top: 11px;
+}
+
+*{
+    font-family: sans-serif;
+}
