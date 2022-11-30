@@ -27,7 +27,14 @@ fieldset{
     color: rgb(172, 166, 171);
 }
 
+/* Password and text boxes */
 .content > input[type="text"]{
+    width: 22pc;
+    font-size: 1pc;
+    margin-top: 2.5mm;
+}
+
+.content > input[type="password"]{
     width: 22pc;
     font-size: 1pc;
     margin-top: 2.5mm;
